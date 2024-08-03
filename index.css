@@ -1,0 +1,157 @@
+body {
+    background: url(./shara\ desert.jpg);
+    background-size: cover;
+}
+
+.logo {
+    background: url(./logo.png);
+    background-size: contain;
+    height: 55px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.home {
+
+    left: 780px;
+    top: 45px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+.region {
+
+    top: 45px;
+    left: 870px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+.about {
+    top: 45px;
+    left: 970px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+.line{
+    background: url(./menuiconimg.png);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    left: 1130px;
+    top: 39px;
+    position: absolute;
+}
+
+.line:hover{
+    background: url(./menuiconvid.gif);
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 550px;
+}
+
+.main p {
+    color: white;
+
+}
+
+.name {
+    font-size: 80px;
+    color: white;
+    font-weight: bold; 
+    
+}
+
+.explore {
+    background: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 175px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    left: 750px;
+    top: 100px;
+}
+
+.aligen {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.image1 {
+    display: block;
+    background: url(./pic-1.png);
+    background-size: cover;
+    height: 230px;
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: small;
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+
+}
+
+.image2 {
+    display: block;
+    background: url(./pic-2.png);
+    background-size: cover;
+    height: 230px;
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: small;
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+
+.image3 {
+    display: block;
+    background: url(./pic-3.png);
+    background-size: cover;
+    height: 230px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: small;
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.image4 {
+    display: block;
+    background: url(./pic-4.png);
+    background-size: cover;
+    height: 230px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: small;
+    color: white;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
